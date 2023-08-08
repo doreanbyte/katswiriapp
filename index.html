@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katswiri - Home</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="nav-content">
+        <h2 class="brand">
+            <a href="index.html">
+                Katswiri
+            </a>
+        </h2>
+        <nav class="nav-links">
+            <ul>
+                <li class="active">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="terms_of_service.html">
+                        Terms of Service
+                    </a>
+                </li>
+                <li>
+                    <a href="privacy_policy.html">
+                        Privacy Policy
+                    </a>
+                </li>
+            </ul>
+            <button class="download-btn">Download</button>
+        </nav>
+    </header>
+    <main class="container">
+        <header class="intro-section">
+            <div class="description">
+                <h1 class="brand-lg text-center">
+                    Katswiri
+                </h1>
+                <p class="text-center">
+                    Job Listing Aggregator, Search Multiple Sources, Save Jobs, Review History
+                    and Much More
+                </p>
+            </div>
+        </header>
+        <p class="feature-title text-center">Features</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Multipe Sources</h3>
+                <img src="img/listing_1_lg.png" alt="Main Job Listing Page">
+                <p>Browse Jobs from Multiple Sources</p>
+            </div>
+            <div class="feature">
+                <h3>Save Jobs</h3>
+                <img src="img/saved_lg.png" alt="Saved Jobs Page">
+                <p>Save Jobs for Later Viewing</p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="feature text-center">
+                <h3>History</h3>
+                <img src="img/history_lg.png" alt="Saved Jobs Page">
+                <p>Review Jobs From Your History</p>
+            </div>
+            <div class="feature text-center">
+                <h3>View Jobs</h3>
+                <img src="img/job_desc_lg.png" alt="Saved Jobs Page">
+                <p>View Jobs in App or Browser</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div>
+                <div class="footer-content">
+                    <div>
+                        <h3>DoreanByte</h3>
+                        <p>
+                            <strong>Email Us: </strong><a href="mailto:dev.doreanbyte.mw@gmail.com" class="envelope"><i
+                                    class="bx bx-envelope"></i>dev.doreanbyte.mw@gmail.com</a><br>
+                            <strong>Contact Us: </strong>+265887273272
+                        </p>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Site Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="terms_of_service.html">Terms of Service</a></li>
+                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a href="third_parties.html">Third Party Notices</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div class="copyright">
+                    &copy; Copyright <span id="year"></span> <strong><span>Katswiri</span></strong>. All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</html>
