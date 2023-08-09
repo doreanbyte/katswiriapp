@@ -99,10 +99,11 @@ body {
 .feature {
     text-align: center;
     font-weight: bold;
+    margin: 8px;
 }
 
 .feature img {
-    width: 49.9%;
+    width: 90%;
 }
 
 .description p {
@@ -151,4 +152,30 @@ footer {
 
 .footer-links a:hover {
     color: green;
+}
+
+.download-section {
+    margin: 5em 0 0 0;
+}
+
+.download-section h4 {
+    font-size: 28px;
+}
+
+.download-section a {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .footer-links h4 {
+        text-align: left;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+    }
 }
